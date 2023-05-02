@@ -3,6 +3,8 @@ package br.com.danielazevedo.escolaspring.model;
 import java.util.HashSet;
 import java.util.Set;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,6 +30,7 @@ public class Curso {
 	@Column(nullable = false)
 	private String descricao;
 	
+	@JsonIgnore
 	@ManyToMany(mappedBy = "cursos")
 	Set<Estudante> estudantes = new HashSet<>();
 

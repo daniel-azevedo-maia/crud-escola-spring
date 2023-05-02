@@ -42,6 +42,7 @@ public class Estudante {
 	
 	@Column(nullable = false)
 	@Embedded
+	@JsonIgnore
 	private Endereco endereco;
 	
 	@Column(nullable = false, unique = true)
@@ -54,7 +55,7 @@ public class Estudante {
 	@JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
 	private LocalDateTime dataCadastro;
 	
-	@JsonIgnore
+
 	@ManyToMany
 	@JoinTable(name = "estudante_curso",
 	joinColumns = @JoinColumn(name = "estudante_id"),
