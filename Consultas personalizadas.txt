@@ -1,0 +1,24 @@
+Query Methods:
+
+Encontrar estudantes por nome.
+Encontrar estudantes por e-mail.
+Encontrar estudantes por parte do nome (usando LIKE).
+Encontrar estudantes por parte do e-mail (usando LIKE).
+Encontrar todos os estudantes de um curso específico, dado o ID do curso.
+Encontrar todos os cursos com uma descrição que contenha uma palavra específica (usando LIKE).
+Contar o número de estudantes de um curso específico, dado o ID do curso.
+Encontrar os cursos com mais de um determinado número de estudantes inscritos.
+Encontrar estudantes cujos nomes comecem com uma letra específica.
+Encontrar cursos cujas descrições terminem com uma palavra específica.
+JPQL:
+
+Encontrar estudantes que tenham o nome "Pedro".
+Encontrar estudantes com e-mail específico.
+Encontrar todos os estudantes de um curso específico, dado o nome do curso.
+Contar o número de estudantes em um curso específico, dado o ID do curso.
+Encontrar todos os estudantes com nomes que contenham uma determinada substring.
+Encontrar todos os cursos com uma descrição que contenha uma palavra específica.
+Encontrar todos os estudantes em cursos com uma descrição específica.
+Encontrar todos os cursos que tenham mais de um determinado número de estudantes inscritos.
+Encontrar os 5 estudantes com os nomes mais curtos.
+Encontrar os cursos ordenados pelo número de estudantes inscritos, em ordem decrescente.
