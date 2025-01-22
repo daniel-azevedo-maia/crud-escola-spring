@@ -1,4 +1,4 @@
-package br.com.danielazevedo.escolaspring.exception;
+package br.com.danielazevedo.escolaspring.infrastructure.exception;
 
 public class EntidadeNaoEncontradaException extends RuntimeException {
 

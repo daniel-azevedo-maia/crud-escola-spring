@@ -1,4 +1,4 @@
-package br.com.danielazevedo.escolaspring.model;
+package br.com.danielazevedo.escolaspring.domain.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
@@ -28,5 +28,4 @@ public class Endereco {
 
 	@Column(name = "endereco_estado")
 	private String estado;
-
 }
